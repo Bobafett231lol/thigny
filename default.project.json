@@ -1,0 +1,14 @@
+{
+  "name": "ProceduralWorlds",
+  "tree": {
+    "$className": "DataModel",
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "WorldFramework": { "$path": "src/ServerStorage/WorldFramework" }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "WorldMain": { "$path": "src/ServerScriptService/WorldMain.server.luau" }
+    }
+  }
+}
