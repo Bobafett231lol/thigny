@@ -1,0 +1,32 @@
+{
+  "name": "ProceduralWorlds",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "PixelKit": { "$path": "src/ReplicatedFirst/PixelKit.luau" },
+      "Loading": { "$path": "src/ReplicatedFirst/Loading.luau" },
+      "Boot": { "$path": "src/ReplicatedFirst/Boot.client.luau" }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": { "$path": "src/ReplicatedStorage/Shared" }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "WorldFramework": { "$path": "src/ServerStorage/WorldFramework" },
+      "GameSystems": { "$path": "src/ServerStorage/GameSystems" }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "GameMain": { "$path": "src/ServerScriptService/GameMain.server.luau" }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "GameClient": { "$path": "src/StarterPlayer/StarterPlayerScripts/GameClient" }
+      }
+    }
+  }
+}
